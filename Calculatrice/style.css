@@ -1,0 +1,43 @@
+main {
+    background-color: rgba(0, 0, 0, 0.932);
+    height: 100vh;
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+section {
+    border-radius: 10px;
+    background-color: rgb(241, 70, 70);
+}
+
+#calcul {
+    border: 5px, solid rgb(206, 192, 39);
+    border-radius: 10px;
+    height: 10px;
+    background-color: rgb(228, 224, 224);
+    padding: 20px;
+    margin: 20px;
+}
+
+.button-number {
+    margin: 5px;
+    padding: 10px;
+}
+.button-operator {
+    margin: 5px;
+    padding: 10px;
+}
+.button-result {
+    margin: 5px;
+    padding: 10px;
+}
+.button-clear {
+    margin: 5px;
+    padding: 10px;
+}
+.column-final {
+    display: flex;
+    justify-content: space-around;
+}
